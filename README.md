@@ -1,7 +1,5 @@
 # netflix-carousel-css-only
 
-The code from [this YouTube video](https://youtu.be/b--q6Fsf_cA), where I did my best to clone the Netflix carousel UI using CSS only.
+This was originally based on the code from [this YouTube video](https://youtu.be/b--q6Fsf_cA), cloning the Netflix carousel UI using CSS only.
 
-**This uses the `:has()` selector**. If you want to play with the code, make sure that [you're browser supports the `:has()` selector](https://caniuse.com/css-has).
-
-Don't use anything like this in production until support is much better than when I used it (May 4th, 2022), where it was only supported in Safari and behind a flag in Chrome.
+This version uses radio buttons, and keeps all the items in the same `ol`. There are also custom properties to make it easier to change how many items show per "page".
